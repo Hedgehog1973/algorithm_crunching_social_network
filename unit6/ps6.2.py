@@ -59,7 +59,7 @@ def break_link(G, node1, node2):
     return G
 
 def k_clique(G, k):
-    if len(G.keys() == 1):
+    if len(G.keys()) == 1:
         return G.keys()
     if not k_clique_decision(G, k):
         return False
